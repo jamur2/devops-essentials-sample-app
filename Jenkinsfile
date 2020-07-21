@@ -5,7 +5,6 @@ pipeline {
             steps {
                 echo 'Running build automation'
                 sh './gradlew build'
-                sh './asdfasdfa'
                 archiveArtifacts artifacts: 'src/index.html'
             }
         }
