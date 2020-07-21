@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Running build automation'
                 sh './gradlew build'
+                sh 'touch test.xml'
                 junit 'tests.xml'
                 archiveArtifacts artifacts: 'src/index.html'
             }
