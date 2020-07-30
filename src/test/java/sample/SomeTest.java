@@ -8,7 +8,7 @@ public class SomeTest {
     @org.junit.Test
     public void checks2() {}
 
-    @org.junit.Test
+    @org.junit.TestCompilebreak
     public void checks3() {}
 
     @org.junit.Test
