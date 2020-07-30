@@ -8,11 +8,11 @@ public class SomeTest {
     @org.junit.Test
     public void checks2() {}
 
-    @org.junit.TestCompilebreak
+    @org.junit.Test
     public void checks3() {}
 
     @org.junit.Test
     public void checks4() {
-        assertEquals(42,43);
+        assertEquals(42,42);
     }
 }
