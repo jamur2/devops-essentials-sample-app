@@ -71,7 +71,7 @@ pipeline {
 
             @org.junit.Test
             public void checks4() {
-                assertEquals(42,42);
+                assertEquals(42,43);
             }
         }
                 '''
